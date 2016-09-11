@@ -17,7 +17,6 @@ namespace OnlineElection.Controllers
     [Authorize]
     public class AccountController : Controller
     {
-        int x;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
